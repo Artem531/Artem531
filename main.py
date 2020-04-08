@@ -3,7 +3,7 @@ import scipy.special
 import matplotlib.pyplot as plt
 
 f0 = 40e6
-T = 1e-1
+T = 1e-6
 delta = 1 / T
 q = 16
 
