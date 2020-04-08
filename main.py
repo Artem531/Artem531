@@ -2,8 +2,8 @@ import numpy as np
 import scipy.special
 import matplotlib.pyplot as plt
 
-f0 = 40 * 1024*2
-T = 1 / (10*6)
+f0 = 40e6
+T = 1e-1
 delta = 1 / T
 q = 16
 
