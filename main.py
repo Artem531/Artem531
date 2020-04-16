@@ -76,16 +76,7 @@ line1, = plt.plot(SNRdb, Pe, label="My result", linestyle='--')
 line2, = plt.plot(SNRdbtheory, UpperPe, label="Upper", linestyle=':')
 line3, = plt.plot(SNRdbtheory, accPe, label="acc", linestyle=':')
 
-# Create a legend for the first line.
-first_legend = plt.legend(handles=[line1], loc=1)
-# Create a legend for the second line.
-second_legend = plt.legend(handles=[line2], loc=2)
-# Create a legend for the third line.
-third_legend = plt.legend(handles=[line3], loc=3)
-
-plt.gca().add_artist(first_legend)
-plt.gca().add_artist(second_legend)
-plt.gca().add_artist(third_legend)
+plt.legend(loc='upper right', borderaxespad=0.)
 
 plt.show()
 
